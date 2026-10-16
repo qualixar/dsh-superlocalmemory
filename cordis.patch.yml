@@ -1,0 +1,11 @@
+# Connects SuperLocalMemory to DeepSeek Harness through the official MCP client.
+# Requires the `slm` executable on PATH (see README). Tools appear as mcp__slm__<tool>.
+- insert:
+    - id: memory-superlocalmemory
+      name: '@deepseek-ai/dsh-mcp-client'
+      config:
+        serverName: slm
+        transport: stdio
+        command: slm
+        args: [mcp]
+        toolCallTimeoutMs: 120000

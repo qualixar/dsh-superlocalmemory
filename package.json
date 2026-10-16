@@ -1,0 +1,18 @@
+{
+  "name": "dsh-superlocalmemory",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness bundle that connects SuperLocalMemory over stdio MCP.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qualixar/dsh-superlocalmemory.git"
+  },
+  "homepage": "https://github.com/qualixar/dsh-superlocalmemory#readme",
+  "files": ["cordis.patch.yml", "README.md", "LICENSE"],
+  "keywords": ["dsh-plugin", "deepseek-harness", "mcp", "memory", "agent-memory", "superlocalmemory"],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
