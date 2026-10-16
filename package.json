@@ -1,6 +1,6 @@
 {
   "name": "dsh-superlocalmemory",
-  "version": "0.1.0",
+  "version": "4.2.8",
   "description": "DeepSeek Harness bundle that connects SuperLocalMemory over stdio MCP.",
   "license": "MIT",
   "repository": {
